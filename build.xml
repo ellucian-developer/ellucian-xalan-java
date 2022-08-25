@@ -64,8 +64,8 @@ $Id$
   <property name="name"                   value="xalan"/>
   <property name="year"                   value="2014"/>
   <property name="build.debug"            value="on"/>
-  <property name="compiler.target"        value="1.3"/>
-  <property name="compiler.source"        value="1.3"/>
+  <property name="compiler.target"        value="1.8"/>
+  <property name="compiler.source"        value="1.8"/>
 
   <!-- Xalan Java version information -->
   <property name="version.VERSION"        value="2"/>
@@ -389,8 +389,8 @@ $Id$
       <!-- exclude the serializer -->
       <exclude name="${serializer.reldir}/**/*.java" />      
       <!-- Exclude file that depends upon presence of Xerces in build path -->
-      <exclude name="**/IncrementalSAXSource_Xerces.java" 
-        unless="xerces.present"	 />
+      <!-- <exclude name="**/IncrementalSAXSource_Xerces.java" 
+        unless="xerces.present"	 /> -->
       <classpath refid="compile.class.path" />
       <bootclasspath refid="xslt.boot.class.path" />
     </javac>
@@ -1687,6 +1687,7 @@ $Id$
     <javac srcdir="${serializer.src.dir}"
            destdir="${serializer.build.classes}"
            debug="${serializer.build.debug}" 
+           includeantruntime="false"
     	   target="${compiler.target}" source="${compiler.source}">
       <include name="${serializer.reldir}/**/*.java" />
       <classpath refid="compile.class.path" />
