@@ -201,6 +201,11 @@ xml-apis.jar - Xerces-Java 2 XML Parser.
 Source:   http://xerces.apache.org/
 Used by:  Xalan-Java 2 and release copy of Xerces-Java 2
 
+The license above also applies to the jar file
+BCEL.jar - Byte Code Engineering Library.
+Source:  http://jakarta.apache.org/bcel
+Used By: XSLTC component of xml-xalan/java
+
 
 
 
@@ -271,16 +276,8 @@ Used By: Xalan's build process: java/build.xml and test/build.xml
 
 
 
-
-
-The following license, Apache Software License, Version 1.1,
-applies to the included BCEL.jar from Apache Jakarta
-(Byte Code Engineering Library).
-Source:  http://jakarta.apache.org/bcel
-Used By: XSLTC component of xml-xalan/java
-
 The following license, Apache Software License, Version 1.1, 
-also applies to the included regexp.jar,
+applies to the included regexp.jar,
 jakarta-regexp-1.2.jar from Apache Jakarta.
 Source:  http://jakarta.apache.org/regexp
 Used By: BCEL.jar which is used by XSLTC component of xml-xalan/java
