@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ellucian.xalan</groupId>
   <artifactId>xalan</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -30,7 +30,7 @@
     <description>Fork of the apache:xalan-java repository which fixes CVE-2022-34169</description>
     <url>https://www.ellucian.com</url>
   
-      <licenses>
+    <licenses>
       <license>
         <name>The Apache License, Version 2.0</name>
         <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
@@ -46,7 +46,7 @@
       </developer>
     </developers>
   
-       <scm>
+    <scm>
       <connection>scm:git:git://github.com/ellucian-developer/ellucian-xalan-java.git</connection>
       <developerConnection>scm:git:ssh://github.com/ellucian-developer/ellucian-xalan-java.git</developerConnection>
       <url>http://github.com/ellucian-developer/ellucian-xalan-java/tree/master</url>
