@@ -26,6 +26,20 @@
     </plugins>
   </build>
   
+  <dependencies>
+	<dependency>
+	  <groupId>xalan</groupId>
+	  <artifactId>serializer</artifactId>
+	  <version>2.7.2</version>
+	</dependency>
+	<dependency>
+	  <groupId>xerces</groupId>
+	  <artifactId>xercesImpl</artifactId>
+	  <version>2.9.1</version>
+	  <optional>true</optional>
+	</dependency>
+  </dependencies>
+  
     <name>Ellucian Xalan</name>
     <description>Fork of the apache:xalan-java repository which fixes CVE-2022-34169</description>
     <url>https://www.ellucian.com</url>
