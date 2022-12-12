@@ -48,15 +48,15 @@ Implementation-Version: @impl.version@
 Implementation-Vendor: Princeton University  
 Implementation-URL: http://www.cs.princeton.edu/~appel/modern/java/CUP/ 
 
-Name: com/ellucian/bcel/
+Name: org/apache/bcel/
 Comment: Byte Code Engineering Library 
 Specification-Title: Byte Code Engineering Library 
-Specification-Vendor: Ellucian 
-Specification-Version: 1.0.0 
-Implementation-Title: com.ellucian.bcel
-Implementation-Version: 1.0.0
-Implementation-Vendor: Ellucian
-Implementation-URL: https://ellucian.com
+Specification-Vendor: Markus Dahm 
+Specification-Version: 6.6.1
+Implementation-Title: org.apache.bcel
+Implementation-Version: 6.6.1
+Implementation-Vendor: Apache Software Foundation
+Implementation-URL: http://jakarta.apache.org/bcel
 
 Name: org/apache/regexp/
 Comment: Java Regular Expression package 
